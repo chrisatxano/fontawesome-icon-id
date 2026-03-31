@@ -1,0 +1,23 @@
+.fa-id-tooltip {
+  position: fixed;
+  z-index: 2147483647;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: #1e293b;
+  color: #e2e8f0;
+  font: 600 12px/1.4 system-ui, sans-serif;
+  white-space: nowrap;
+  pointer-events: none;
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.fa-id-tooltip--visible {
+  opacity: 1;
+}
+
+.fa-id-tooltip--copied {
+  background: #16a34a;
+  color: #fff;
+}
